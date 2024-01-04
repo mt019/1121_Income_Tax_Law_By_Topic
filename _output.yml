@@ -7,7 +7,7 @@ bookdown::gitbook:
   # split_by: section
   config:
     toc:
-      collapse: section
+      collapse: subsection
       before: |
         <li><a href="./">所得稅法一</a></li>
       after: |
