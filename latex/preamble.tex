@@ -1,0 +1,120 @@
+\usepackage{booktabs}
+\usepackage{longtable}
+
+
+\usepackage{framed,color}
+\definecolor{shadecolor}{RGB}{248,248,248}
+
+\usepackage[toc, page]{appendix} 
+
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\topfraction}{0.8}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\floatpagefraction}{0.75}
+
+\renewcommand\contentsname{目錄}
+\renewcommand\listfigurename{圖目錄}
+\renewcommand\listtablename{表目錄}
+\renewcommand{\appendixtocname}{附錄} 
+\renewcommand{\appendixpagename}{附錄} 
+
+
+\usepackage{ctex} 
+
+\ctexset{chapter ={
+  format += \bfseries\songti,
+  % format += \rmfamily,
+name={第,章},
+number=\arabic{chapter},
+},
+section/format += \songti,
+subsection/format += \songti,
+subsubsection/format += \songti,
+paragraph/format =  \large\bfseries\songti,
+paragraph/numbering = true,
+appendixname = {附錄}
+}
+
+
+
+% \renewcommand{\cftsecfont}{\stxs} %设置section条目的字体
+
+\let\oldhref\href
+\renewcommand{\href}[2]{#2\footnote{\url{#1}}}
+
+\makeatletter
+\newenvironment{kframe}{%
+\medskip{}
+\setlength{\fboxsep}{.8em}
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\makeatletter
+\@ifundefined{Shaded}{
+}{\renewenvironment{Shaded}{\begin{kframe}}{\end{kframe}}}
+\@ifpackageloaded{fancyvrb}{%
+  % https://github.com/CTeX-org/ctex-kit/issues/331
+  \RecustomVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\},formatcom=\xeCJKVerbAddon}%
+}{}
+\makeatother
+
+% \usepackage{makeidx}
+% \makeindex
+\usepackage{imakeidx}
+
+% \newcommand{\gobblecomma}[1]{\@gobble{#1}\ignorespaces}
+
+\newcommand\gobbleone[1]{}
+\newcommand*{\seeonly}[2]{\ (\emph{\seename} #1)}
+% \newcommand*{\also}[2]{(\emph{\alsoname} #1)}
+% \newcommand{\Also}[2]{\emph{See also} #1}
+
+% \providecommand*\see[2]{\emph{\seename} #1}
+
+% \usepackage{seealso}
+
+
+% https://latex.org/forum/viewtopic.php?t=27503
+
+\renewcommand{\seename}{參見}
+\renewcommand{\alsoname}{又見}
+
+
+% https://zhuanlan.zhihu.com/p/572429923
+
+
+% \usepackage{hyperref}
+% \usepackage{classicthesis}
+% \usepackage[eulerchapternumbers,subfig,beramono,eulermath,pdfspacing,
+% listings]{classicthesis}
+\makeindex[intoc=true,
+columns=1,columnseprule=true,
+%  options=-s latex/indexstyles.ist
+]
+
+\usepackage{hyperref}
+
+\urlstyle{tt}
+
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+\frontmatter

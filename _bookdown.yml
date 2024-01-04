@@ -1,0 +1,12 @@
+book_filename: "1121_Income_Tax_Law"
+clean: [packages.bib, bookdown.bbl]
+delete_merged_file: true
+language:
+  label:
+    fig: "圖 "
+    tab: "表 "
+  ui:
+    edit: "編輯"
+    chapter_name: ["第 ", " 章"]
+output_dir: "docs"
+# rmd_subdir: yes
