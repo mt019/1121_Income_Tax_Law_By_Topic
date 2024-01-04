@@ -11,8 +11,8 @@ bookdown::gitbook:
       before: |
         <li><a href="./">所得稅法一</a></li>
       after: |
-        <li><a href="https://github.com/mt019/1121_Income_Tax_Law" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/mt019/1121_Income_Tax_Law/edit/main/%s
+        <li><a href="https://github.com/mt019/1121_Income_Tax_Law_By_Topic" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/mt019/1121_Income_Tax_Law_By_Topic/edit/main/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
