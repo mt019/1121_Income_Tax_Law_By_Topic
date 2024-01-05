@@ -18,11 +18,11 @@ description: "112-1 學期【所得稅法一】課堂筆記。採用R的bookdown
 
 ---
 
-# Preface {-}
+<!-- # Preface {-}
 
 所得稅法一
 
-112-1 學期《所得稅法一》課堂筆記。採用R的bookdown製作，輸出格式為bookdown::gitbook和bookdown::pdf_book。
+112-1 學期《所得稅法一》課堂筆記。採用R的bookdown製作，輸出格式為bookdown::gitbook和bookdown::pdf_book。 -->
 
 
 \mainmatter
