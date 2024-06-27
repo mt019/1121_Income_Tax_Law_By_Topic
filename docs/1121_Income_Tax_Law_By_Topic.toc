@@ -1,0 +1,158 @@
+\contentsline {chapter}{\numberline {第1章\hspace {.3em}}【導言】}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}【稅目】}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}【綜所稅在我國稅制的地位】}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}【所得稅法的規範架構】}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}【開始看法條】}{11}{section.1.4}%
+\contentsline {section}{\numberline {1.5}【再談稅法規範體系】}{21}{section.1.5}%
+\contentsline {chapter}{\numberline {第2章\hspace {.3em}}【稅捐債務】}{24}{chapter.2}%
+\contentsline {section}{\numberline {2.1}【稅法上構成要件】}{25}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}【主體】}{25}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}【客體】}{26}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}【稅基】}{26}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}【稅率】}{26}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}【稅法上法律效果】}{26}{section.2.2}%
+\contentsline {section}{\numberline {2.3}【量能課稅原則】}{27}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}【量能課稅原則的憲法上意義】}{27}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}【量能課稅原則的各項子原則】}{28}{subsection.2.3.2}%
+\contentsline {subsubsection}{普遍原則}{29}{subsubsection*.2}%
+\contentsline {subsubsection}{全部原則}{30}{subsubsection*.3}%
+\contentsline {subsubsection}{實現原則}{31}{subsubsection*.4}%
+\contentsline {subsubsection}{實價（實值）原則}{31}{subsubsection*.5}%
+\contentsline {subsubsection}{客觀淨值原則}{31}{subsubsection*.6}%
+\contentsline {subsubsection}{主觀淨值原則}{31}{subsubsection*.7}%
+\contentsline {subsubsection}{個別主體課稅原則}{32}{subsubsection*.8}%
+\contentsline {subsubsection}{綜合所得課稅原則}{32}{subsubsection*.9}%
+\contentsline {subsubsection}{終生所得課稅原則}{32}{subsubsection*.10}%
+\contentsline {subsubsection}{比例稅率原則}{32}{subsubsection*.11}%
+\contentsline {subsection}{\numberline {2.3.3}【量能課稅原則的各項子原則在綜所稅上的違反】}{32}{subsection.2.3.3}%
+\contentsline {subsubsection}{【第一項普遍原則】}{32}{subsubsection*.12}%
+\contentsline {subsubsection}{【第二項全部原則及其後各項】}{36}{subsubsection*.13}%
+\contentsline {section}{\numberline {2.4}【稅捐主體（納稅義務人）】}{38}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}【稅籍、國籍、戶籍】}{45}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}【遺贈稅法的稅籍】}{47}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}【稅籍連結戶籍】}{49}{subsection.2.4.3}%
+\contentsline {subsubsection}{【兩岸人民關係條例】}{49}{subsubsection*.14}%
+\contentsline {subsubsection}{【香港澳門關係條例】}{50}{subsubsection*.15}%
+\contentsline {subsubsection}{【土地稅法第9條】}{52}{subsubsection*.16}%
+\contentsline {subsection}{\numberline {2.4.4}【稅籍居民小結】}{52}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}【小結】}{53}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}【稅捐客體】}{53}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}【稅捐客體之判斷流程】}{53}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}【所得的概念演變】}{54}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}【我國的所得概念】}{57}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}【是否所得之判斷】}{58}{subsection.2.5.4}%
+\contentsline {subsubsection}{【損害賠償】}{58}{subsubsection*.17}%
+\contentsline {subsubsection}{【損失補償】}{62}{subsubsection*.18}%
+\contentsline {subsubsection}{【變動所得】}{64}{subsubsection*.19}%
+\contentsline {subsubsection}{【保險給付】}{66}{subsubsection*.20}%
+\contentsline {subsubsection}{【信託財產的移動】}{68}{subsubsection*.21}%
+\contentsline {subsubsection}{【股款之投入跟取回】}{70}{subsubsection*.22}%
+\contentsline {subsubsection}{【是否所得，小結】}{71}{subsubsection*.23}%
+\contentsline {subsection}{\numberline {2.5.5}【應稅所得或免稅所得】}{71}{subsection.2.5.5}%
+\contentsline {subsubsection}{【實用性原則】}{71}{subsubsection*.24}%
+\contentsline {subsubsection}{【功績原則】}{72}{subsubsection*.25}%
+\contentsline {subsubsection}{【需要原則】}{73}{subsubsection*.26}%
+\contentsline {subsubsection}{【避免重複課稅】}{73}{subsubsection*.27}%
+\contentsline {subsubsection}{【證交稅代替證所稅？】}{74}{subsubsection*.28}%
+\contentsline {subsection}{\numberline {2.5.6}【所得類型】}{75}{subsection.2.5.6}%
+\contentsline {subsubsection}{【三點區別實益】}{75}{subsubsection*.29}%
+\contentsline {subsubsection}{【獨立勞務】}{78}{subsubsection*.30}%
+\contentsline {paragraph}{【第一類 營利所得】}{78}{paragraph*.31}%
+\contentsline {paragraph}{【第二類 執行業務所得】}{79}{paragraph*.32}%
+\contentsline {paragraph}{【第六類農漁牧林礦】}{84}{paragraph*.33}%
+\contentsline {subsubsection}{【非獨立勞務】}{84}{subsubsection*.34}%
+\contentsline {paragraph}{【第三類 薪資所得】}{84}{paragraph*.35}%
+\contentsline {paragraph}{【第九類退職所得】}{86}{paragraph*.36}%
+\contentsline {subsubsection}{【資本投入】}{89}{subsubsection*.37}%
+\contentsline {subsubsection}{【兩稅合一】}{90}{subsubsection*.38}%
+\contentsline {subsubsection}{【一時性】}{91}{subsubsection*.39}%
+\contentsline {subsubsection}{【所得類型，小結】}{94}{subsubsection*.40}%
+\contentsline {subsection}{\numberline {2.5.7}【所得之實現】}{95}{subsection.2.5.7}%
+\contentsline {subsubsection}{【所得之實現時】}{95}{subsubsection*.41}%
+\contentsline {subsubsection}{【所得實現地點】}{99}{subsubsection*.42}%
+\contentsline {subsubsection}{【所得來源區分實益】}{100}{subsubsection*.43}%
+\contentsline {subsubsection}{【第8條，中華民國來源】}{106}{subsubsection*.44}%
+\contentsline {subsubsection}{【第8條，來源所得認定原則】}{111}{subsubsection*.45}%
+\contentsline {paragraph}{【第2點，股利】}{112}{paragraph*.46}%
+\contentsline {paragraph}{【第3點，盈餘】}{113}{paragraph*.47}%
+\contentsline {paragraph}{【第4點，勞務報酬】}{116}{paragraph*.48}%
+\contentsline {subsection}{\numberline {2.5.8}【所得來源地判斷，應然】}{119}{subsection.2.5.8}%
+\contentsline {subsubsection}{【所謂的中華民國領域】}{119}{subsubsection*.49}%
+\contentsline {subsubsection}{【所得來源地之四個判斷標準，概説】}{121}{subsubsection*.50}%
+\contentsline {paragraph}{【所在地課稅原則】}{121}{paragraph*.51}%
+\contentsline {paragraph}{【勞務：經營地、履行地】}{122}{paragraph*.52}%
+\contentsline {paragraph}{【債務人稅籍】}{122}{paragraph*.53}%
+\contentsline {paragraph}{【實質判斷標準】}{124}{paragraph*.54}%
+\contentsline {subsubsection}{【非獨立勞務與營利事業】}{125}{subsubsection*.55}%
+\contentsline {subsubsection}{【非稅籍居民在我國境內】}{126}{subsubsection*.56}%
+\contentsline {subsubsection}{【孳息，區分資本類型】}{127}{subsubsection*.57}%
+\contentsline {paragraph}{【股利】}{127}{paragraph*.58}%
+\contentsline {paragraph}{【利息】}{128}{paragraph*.59}%
+\contentsline {paragraph}{【財產之孳息，租金】}{128}{paragraph*.60}%
+\contentsline {paragraph}{【權利金】}{129}{paragraph*.61}%
+\contentsline {subsubsection}{【財產交易】}{130}{subsubsection*.62}%
+\contentsline {subsubsection}{【政府派駐】}{130}{subsubsection*.63}%
+\contentsline {subsubsection}{【境內經營】}{131}{subsubsection*.64}%
+\contentsline {subsubsection}{【競技、競賽、機會中獎】}{132}{subsubsection*.65}%
+\contentsline {subsubsection}{【其他收益】}{132}{subsubsection*.66}%
+\contentsline {subsection}{\numberline {2.5.9}【稅捐客體小結】}{132}{subsection.2.5.9}%
+\contentsline {section}{\numberline {2.6}【稅基】}{132}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}【客觀與主觀凈所得】}{133}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}【客觀淨值原則】}{138}{subsection.2.6.2}%
+\contentsline {subsubsection}{【盈虧互抵】}{138}{subsubsection*.67}%
+\contentsline {subsubsection}{【客觀淨值在14條的各類所得】}{139}{subsubsection*.68}%
+\contentsline {subsubsection}{【數個主體合併計算】}{144}{subsubsection*.69}%
+\contentsline {subsection}{\numberline {2.6.3}【小結】}{145}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}【主觀淨值】}{146}{subsection.2.6.4}%
+\contentsline {subsubsection}{【生存權保障】}{146}{subsubsection*.70}%
+\contentsline {subsubsection}{【免稅額】}{147}{subsubsection*.71}%
+\contentsline {subsubsection}{【標準扣除額與列舉扣除額】}{149}{subsubsection*.72}%
+\contentsline {subsubsection}{【列舉扣除額】}{149}{subsubsection*.73}%
+\contentsline {paragraph}{【捐贈】}{149}{paragraph*.74}%
+\contentsline {paragraph}{【保險費、醫藥及生育費】}{151}{paragraph*.75}%
+\contentsline {paragraph}{【災害損失】}{151}{paragraph*.76}%
+\contentsline {paragraph}{【購屋借款跟房屋租金支出】}{152}{paragraph*.77}%
+\contentsline {subsubsection}{【特別扣除額】}{152}{subsubsection*.78}%
+\contentsline {section}{\numberline {2.7}【稅率】}{153}{section.2.7}%
+\contentsline {section}{\numberline {2.8}【所得稅法條的規範結構】}{155}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}【一般規定】}{155}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}【名詞定義】}{157}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}【綜合所得稅】}{162}{subsection.2.8.3}%
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}【稅捐稽徵】}{167}{chapter.3}%
+\contentsline {section}{\numberline {3.1}【稅捐稽徵程序】}{167}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}【結算申報繳納】}{167}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}【溢繳稅款返還 vs 退給稅款】}{171}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}【報繳合一】}{172}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}【婚姻跟家庭】}{173}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}【婚姻跟家庭的合併稅制】}{175}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}【婚姻】}{176}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}【家庭課稅制】}{182}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}【就源扣繳程序】}{184}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}【扣繳義務人】}{192}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}【扣繳義務的內容】}{194}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}【扣繳義務人的責任債務】}{195}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}【扣繳義務人的制裁】}{196}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}【釋字673號】}{198}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}【扣繳制度評析】}{201}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}【就源扣繳制度之合憲性】}{204}{subsection.3.4.1}%
+\contentsline {subsubsection}{【境外所得者】}{204}{subsubsection*.79}%
+\contentsline {subsubsection}{【境內所得者】}{205}{subsubsection*.80}%
+\contentsline {subsection}{\numberline {3.4.2}【扣繳義務人】}{207}{subsection.3.4.2}%
+\contentsline {subsubsection}{【扣繳義務人的法律上地位】}{207}{subsubsection*.81}%
+\contentsline {subsubsection}{【扣繳義務主體的錯誤設定】}{208}{subsubsection*.82}%
+\contentsline {subsubsection}{【就源扣繳的義務內容】}{210}{subsubsection*.83}%
+\contentsline {subsubsection}{【扣繳義務人的責任債務】}{211}{subsubsection*.84}%
+\contentsline {subsubsection}{【扣繳義務人的裁罰】}{211}{subsubsection*.85}%
+\contentsline {section}{\numberline {3.5}【扣繳義務人與代徵人】}{212}{section.3.5}%
+\contentsline {section}{\numberline {3.6}【結算申報制度與協力義務】}{213}{section.3.6}%
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}【稅捐制裁法】}{219}{chapter.4}%
+\contentsline {chapter}{附錄}{221}{chapter.4}%
+\contentsline {chapter}{\numberline {附錄 A\hspace {.3em}}【開學第一課】}{222}{appendix.A}%
+\contentsline {chapter}{\numberline {附錄 B\hspace {.3em}}【期中考】}{227}{appendix.B}%
+\contentsline {section}{\numberline {B.1}【期中考前】}{227}{section.B.1}%
+\contentsline {section}{\numberline {B.2}【期中考檢討】}{228}{section.B.2}%
+\contentsline {subsection}{\numberline {B.2.1}【期中考第一題】}{228}{subsection.B.2.1}%
+\contentsline {subsection}{\numberline {B.2.2}【期中考第二題】}{229}{subsection.B.2.2}%
+\contentsline {chapter}{\numberline {附錄 C\hspace {.3em}}【稅法的憲法思維】}{233}{appendix.C}%
+\contentsline {chapter}{\numberline {附錄 D\hspace {.3em}}【期末考】}{234}{appendix.D}%
+\contentsline {chapter}{索引}{235}{section*.86}%
