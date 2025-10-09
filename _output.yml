@@ -1,6 +1,7 @@
 bookdown::gitbook:
   css: css/style.css
   includes:
+    in_header: html/seo_head.html
     after_body: custom_def.html
   mathjax: default
   toc_depth: 4
@@ -24,7 +25,9 @@ bookdown::pdf_book:
   latex_engine: xelatex
   citation_package: natbib
   template: latex/template.tex
-  pandoc_args: "--top-level-division=chapter"
+  pandoc_args:
+    - "--top-level-division=chapter"
+    - "--metadata=lang:zh"
   toc_depth: 4
   toc_unnumbered: no
   toc_appendix: yes

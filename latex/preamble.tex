@@ -17,8 +17,53 @@
 \renewcommand\listtablename{表目錄}
 \renewcommand{\appendixtocname}{附錄} 
 \renewcommand{\appendixpagename}{附錄} 
+\newcommand{\SetNTUCJKFonts}[3]{%
+  \setCJKmainfont[AutoFakeBold=2]{#1}%
+  \setCJKsansfont[AutoFakeBold=2]{#2}%
+  \setCJKmonofont{#3}%
+  \setCJKfamilyfont{song}{#1}%
+  \setCJKfamilyfont{hei}{#2}%
+  \setCJKfamilyfont{kai}{#1}%
+  \setCJKfamilyfont{fang}{#1}%
+}
 
-
+\IfFontExistsTF{Noto Serif CJK TC}{%
+  \IfFontExistsTF{Noto Sans Mono CJK TC}{%
+    \SetNTUCJKFonts{Noto Serif CJK TC}{Noto Sans CJK TC}{Noto Sans Mono CJK TC}%
+  }{%
+    \SetNTUCJKFonts{Noto Serif CJK TC}{Noto Sans CJK TC}{Noto Sans CJK TC}%
+  }%
+}{%
+  \IfFontExistsTF{Source Han Serif TC}{%
+    \SetNTUCJKFonts{Source Han Serif TC}{Source Han Sans TC}{Source Han Sans TC}%
+  }{%
+    \IfFontExistsTF{PingFang TC}{%
+      \SetNTUCJKFonts{PingFang TC}{PingFang TC}{PingFang TC}%
+    }{%
+      \SetNTUCJKFonts{FandolSong-Regular}{FandolHei-Regular}{FandolHei-Regular}%
+    }%
+  }%
+}
+\ifdefined\songti
+  \renewcommand{\songti}{\CJKfamily{song}}
+\else
+  \newcommand{\songti}{\CJKfamily{song}}
+\fi
+\ifdefined\heiti
+  \renewcommand{\heiti}{\CJKfamily{hei}}
+\else
+  \newcommand{\heiti}{\CJKfamily{hei}}
+\fi
+\ifdefined\kaishu
+  \renewcommand{\kaishu}{\CJKfamily{kai}}
+\else
+  \newcommand{\kaishu}{\CJKfamily{kai}}
+\fi
+\ifdefined\fangsong
+  \renewcommand{\fangsong}{\CJKfamily{fang}}
+\else
+  \newcommand{\fangsong}{\CJKfamily{fang}}
+\fi
 
 \ctexset{chapter ={
   format += \bfseries\songti,

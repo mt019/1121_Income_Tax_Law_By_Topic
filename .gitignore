@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# bookdown build output
+_book/
+_bookdown_files/
+docs/
+
+# R session files
+.Rapp.history

@@ -1,0 +1,88 @@
+name: Build and Deploy bookdown
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Setup Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+
+      - name: Install system fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+
+      - name: Setup TinyTeX
+        uses: r-lib/actions/setup-tinytex@v2
+
+      - name: Cache and install R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache: true
+          extra-packages: |
+            any::bookdown
+            any::remotes
+            any::tinytex
+
+      - name: Install TinyTeX addons
+        run: |
+          tinytex::tlmgr_install(c(
+            "collection-fontsrecommended",
+            "collection-latexextra",
+            "collection-langchinese"
+          ))
+        shell: Rscript {0}
+
+      - name: Build site
+        run: |
+          bookdown::render_book("index.Rmd", "bookdown::gitbook")
+          bookdown::render_book("index.Rmd", "bookdown::pdf_book")
+          bookdown::render_book("index.Rmd", "bookdown::epub_book")
+        shell: Rscript {0}
+
+      - name: Generate SEO files
+        run: |
+          source("scripts/generate_seo_files.R")
+        shell: Rscript {0}
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

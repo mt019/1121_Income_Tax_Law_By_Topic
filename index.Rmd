@@ -1,0 +1,34 @@
+---
+title: "1121 所得稅法一"
+author: [授課：柯格鐘教授]
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: ctexbook
+classoption: [oneside,sub3section,fontset=none]
+output: bookdown::gitbook
+lang: zh
+keywords: ["柯格鐘", "柯格鐘教授", "所得稅法一", "所得稅法", "臺大法律學院", "課堂筆記", "Tax Law"]
+link-citations: true
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+# link-citations: yes
+colorlinks: yes
+# lot: yes
+# lof: yes
+geometry: [a4paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=3.5cm, rmargin=2.5cm]
+description: "柯格鐘教授授課的 112-1 【所得稅法一】課堂筆記，全面整理所得稅法核心概念、條文解析與實務案例，並提供 GitBook 與 PDF 雙格式參考。"
+
+---
+
+<!-- # Preface {-}
+
+所得稅法一
+
+112-1 學期《所得稅法一》課堂筆記。採用R的bookdown製作，輸出格式為bookdown::gitbook和bookdown::pdf_book。 -->
+
+
+# 課程導覽 {-}
+
+本課程筆記彙整柯格鐘教授在國立臺灣大學法律學院所開授的《所得稅法一》完整內容，聚焦於所得稅法基本理論、最新修法趨勢與實務判決。透過每週課堂講義、案例討論與延伸閱讀，讀者能快速掌握所得稅法一的重要概念與考試重點，亦可作為企業與實務工作者研習所得稅法的參考指南。
+
+\mainmatter
