@@ -1,0 +1,10 @@
+# Bookdown/Pandoc UI translations for Traditional Chinese
+---
+language:
+  ui:
+    chapter_name: ["第 ", " 章"]
+dictionary:
+  Abstract: "摘要"
+  Appendix: "附錄"
+  References: "參考文獻"
+  Table of Contents: "目錄"

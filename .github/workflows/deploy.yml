@@ -33,6 +33,15 @@ jobs:
       - name: Setup Pandoc
         uses: r-lib/actions/setup-pandoc@v2
 
+      - name: Restore TinyTeX cache
+        id: tinytex-cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.TinyTeX
+            ~/.local/share/TinyTeX
+          key: tinytex-${{ runner.os }}-${{ hashFiles('ops/scripts/tinytex-packages.txt') }}
+
       - name: Install system fonts
         run: |
           sudo apt-get update
@@ -51,24 +60,36 @@ jobs:
             any::tinytex
 
       - name: Install TinyTeX addons
+        if: steps.tinytex-cache.outputs.cache-hit != 'true'
         run: |
-          tinytex::tlmgr_install(c(
-            "collection-fontsrecommended",
-            "collection-latexextra",
-            "collection-langchinese"
-          ))
+          pkgs <- readLines("ops/scripts/tinytex-packages.txt")
+          pkgs <- pkgs[pkgs != ""]
+          if (length(pkgs)) tinytex::tlmgr_install(pkgs)
         shell: Rscript {0}
 
       - name: Build site
         run: |
-          bookdown::render_book("index.Rmd", "bookdown::gitbook")
-          bookdown::render_book("index.Rmd", "bookdown::pdf_book")
-          bookdown::render_book("index.Rmd", "bookdown::epub_book")
+          full <- tolower(Sys.getenv("BUILD_FULL", "true"))
+          formats <- c("bookdown::gitbook")
+          if (full %in% c("true", "1", "yes", "on")) {
+            formats <- c(formats, "bookdown::pdf_book", "bookdown::epub_book")
+          }
+          for (fmt in formats) {
+            message("Rendering format: ", fmt)
+            bookdown::render_book(
+              input = "index.Rmd",
+              output_format = fmt,
+              clean_envir = FALSE,
+              new_session = FALSE
+            )
+          }
         shell: Rscript {0}
+        env:
+          BUILD_FULL: true
 
       - name: Generate SEO files
         run: |
-          source("scripts/generate_seo_files.R")
+          source("ops/scripts/generate_seo_files.R")
         shell: Rscript {0}
 
       - name: Upload Pages artifact

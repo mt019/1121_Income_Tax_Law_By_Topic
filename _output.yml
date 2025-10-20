@@ -1,8 +1,8 @@
 bookdown::gitbook:
-  css: css/style.css
+  css: assets/css/style.css
   includes:
-    in_header: html/seo_head.html
-    after_body: custom_def.html
+    in_header: assets/html/seo_head.html
+    after_body: assets/html/custom_def.html
   mathjax: default
   toc_depth: 4
   # split_by: section
@@ -17,14 +17,14 @@ bookdown::gitbook:
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
-    in_header: latex/preamble.tex
-    before_body: latex/before_body.tex
-    after_body: latex/after_body.tex
+    in_header: assets/latex/preamble.tex
+    before_body: assets/latex/before_body.tex
+    after_body: assets/latex/after_body.tex
   keep_tex: yes
   dev: "cairo_pdf"
   latex_engine: xelatex
   citation_package: natbib
-  template: latex/template.tex
+  template: assets/latex/template.tex
   pandoc_args:
     - "--top-level-division=chapter"
     - "--metadata=lang:zh"
@@ -33,5 +33,5 @@ bookdown::pdf_book:
   toc_appendix: yes
   quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
 bookdown::epub_book:
-  stylesheet: css/style.css
+  stylesheet: assets/css/style.css
 bookdown::bs4_book: default

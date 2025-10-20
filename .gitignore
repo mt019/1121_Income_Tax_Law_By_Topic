@@ -8,5 +8,8 @@ _book/
 _bookdown_files/
 docs/
 
+# generated logs
+*.log
+
 # R session files
 .Rapp.history

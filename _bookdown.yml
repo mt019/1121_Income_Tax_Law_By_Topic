@@ -1,5 +1,5 @@
 book_filename: "1121_Income_Tax_Law_By_Topic"
-clean: [packages.bib, bookdown.bbl]
+clean: [assets/bib/packages.bib, bookdown.bbl]
 delete_merged_file: true
 language:
   label:

@@ -1,5 +1,12 @@
 # publish the book with different HTML styles; you should not need this script
 
+args <- commandArgs(trailingOnly = FALSE)
+file_idx <- grep("^--file=", args)
+if (length(file_idx) == 1) {
+  script_dir <- dirname(normalizePath(sub("^--file=", "", args[file_idx])))
+  setwd(normalizePath(file.path(script_dir, "..", "..")))
+}
+
 unlink('docs', recursive = TRUE)
 
 x = readLines('index.Rmd')
